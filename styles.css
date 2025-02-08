@@ -43,7 +43,7 @@
     position: absolute; left: 50%; transform: translateX(-50%);
   }
 
-  #Curriculo{
+  #curriculo{
     padding: 10px 20px;
     border: 2px solid #bc0594;
     color: #bc0594;
@@ -53,13 +53,28 @@
     border-radius: 5px;
   }
 
+  .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
   .letter{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25rem;
+    font-size: 30rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
+    line-height: 0.7
   }
+
+  #circulo {
+    background: #bc0594;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: absolute; 
+    left: 50%;
+    top:25%;
+    transform: translateX(-50%);
+}
