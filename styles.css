@@ -28,7 +28,7 @@
     background-color: black;
   }
   
-  img{
+  .photo img{
     border: 3px solid rgb(142, 8, 113);
     border-radius: 1000px;
     width: 60px;
@@ -52,29 +52,3 @@
     font-size: 1rem;
     border-radius: 5px;
   }
-
-  .home{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-  .letter{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30rem;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    line-height: 0.7
-  }
-
-  #circulo {
-    background: #bc0594;
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    position: absolute; 
-    left: 50%;
-    top:25%;
-    transform: translateX(-50%);
-}
