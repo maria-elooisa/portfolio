@@ -1,0 +1,42 @@
+.footer {
+    width: 100%; /* Garantir que o footer ocupe toda a largura */
+    background: linear-gradient(145deg, #bc0594, #000000); /* Gradiente roxo com preto */
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contact-grade {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.contact-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

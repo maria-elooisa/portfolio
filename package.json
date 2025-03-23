@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "- Fazer uma grade de opções como o roda roda do melhão < infor >\r - Fazer as habilidades como cartas, onde tem a habilidade e nível, e ao clicar mostra a atuação/pratica da habilidade.\r - Inserir os icones e o link na sessão de contato\r - Mudar:  body {\r     height: 150vh; para que o gradiente do fundo fique melhor e n~~ao fixo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

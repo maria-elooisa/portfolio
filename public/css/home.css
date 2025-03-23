@@ -1,0 +1,82 @@
+.home {
+  width: 100%;
+  min-height: 100vh; /* Garantir que a altura mínima seja a altura da viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(145deg, #bc0594, #000000); /* Gradiente roxo com preto */
+}
+
+.letter {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30rem;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  line-height: 0.7;
+  position: relative; /* Para garantir que a letra esteja acima do círculo */
+  z-index: 1;
+}
+
+#circulo {
+  background: #bc0594;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: absolute; 
+  z-index: 2;
+  left: 50%;
+  top: 20%; /* Ajustar a posição para ficar um pouco acima da letra */
+  transform: translateX(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  left: 50%;
+  top: 20%; /* Ajustar a posição para ficar um pouco acima da letra */
+  transform: translateX(-50%);
+  object-fit: cover;
+  position: absolute;
+  z-index: 3;
+}
+
+.floating_letters {
+  border-right: 2px solid beige;
+  color: beige;
+  font-size: 3em;
+  z-index: 4;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  left: 7%;
+  top: 50%;
+}
+
+.type-animation {
+  animation: blinkCursor 500ms infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 10em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+      border-right-color: beige;
+  }
+  to {
+      border-right-color: transparent;
+  }
+}
