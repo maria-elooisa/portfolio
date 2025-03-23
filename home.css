@@ -52,7 +52,7 @@
         position: absolute;
         white-space: nowrap;
         overflow: hidden;
-        left: 10%;
+        left: 7%;
         top: 50%;
     }
     
@@ -64,7 +64,7 @@
       from{
         width: 0;
       }
-      to{width: 18.5em;}
+      to{width: 10em;}
     }
     @keyframes blinkCursor{
       from{

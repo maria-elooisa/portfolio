@@ -1,0 +1,40 @@
+.contact-grade{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.contact-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    width: 60em;
+}
+.contact .skills-contact{
+    font-size: large;
+    border: 3px solid rgb(255, 13, 13);
+    margin: 10px;
+    padding: 5px;
+}
+.contact .skills-contact{
+    font-size: small;
+    border: 3px solid rgb(255, 13, 13);
+    margin: 10px;
+    padding: 5px;
+}
+.contact .skills-contact{
+    font-size: small;
+    border: 3px solid rgb(255, 13, 13);
+    margin: 10px;
+    padding: 5px;
+}

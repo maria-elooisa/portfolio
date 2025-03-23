@@ -7,7 +7,7 @@
   }
   
   body {
-    height: 100vh;
+    height: 120vh;
     background: linear-gradient(to bottom, black, #bc0594);
     font-family: 'Inter', sans-serif; /* Use Google Fonts if necessary */
   }
