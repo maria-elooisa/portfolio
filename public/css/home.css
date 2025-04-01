@@ -15,8 +15,6 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
   line-height: 0.7;
-  position: relative; /* Para garantir que a letra esteja acima do círculo */
-  z-index: 1;
 }
 
 #circulo {
@@ -79,4 +77,8 @@
   to {
       border-right-color: transparent;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

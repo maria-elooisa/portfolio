@@ -21,12 +21,14 @@
             <img src="./img/my.png" alt="Foto do Perfil">
         </div>
         <div class="guias">
-                <span> <a href="index.html"> Home</a></span>
-                <span> <a href="index.html"> Projetos</a></span>
-                <span> <a href="index.html"> Habilidades</a></span>
-                <span> <a href="index.html"> Contato</a></span>
+                <span> <a href="#home"> Home</a></span>
+                <span> <a href="#projetos"> Projetos</a></span>
+                <span> <a href="#habilidades"> Habilidades</a></span>
+                <span> <a href="#contato"> Contato</a></span>
         </div>
-        <button id="curriculo">Baixe o Curriculo</button>
+        <a href="/doc/Maria Eloisa da Silva Santos - Curriculo.pdf" download>
+            <button id="curriculo">Baixe o Currículo</button>
+        </a>        
     </header>
 
     <!-- Home -->
@@ -40,7 +42,7 @@
     </div>
     
     <!-- Projetos -->
-    <div class="projects-grade">
+    <div id="projetos" class="projects-grade">
         <h1>Projetos</h1>
         <div class="projects-action">
             <div class="projects">
@@ -75,7 +77,7 @@
         </div>
     </div>
     <!-- Habilidades -->
-    <div class="skills-grade">
+    <div id="habilidades" class="skills-grade">
         <h1>Habilidades</h1>
         <div class="skills-action">
             <div class="skill-card" onclick="toggleDescription(this)">
@@ -96,7 +98,7 @@
                         <p class="skills-level">Intermediário-Básico</p>
                     </div>
                     <div class="skill-back">
-                        <p class="skills-descripition">Pratiquei esta linguagem ativamente no projeto SKYER onde fui a responsável pelo front-end do projeto que consistia em um site como de compras onde recebia as informações da câmera do robô e disponibilizava para o usuário os itens disponíveis.</p>
+                        <p class="skills-descripition">Pratico diariamente e sempre que tenho oportunidade.</p>
                     </div>
                 </div>
                 <div class="skills-action">
@@ -106,7 +108,7 @@
                             <p class="skills-level">Básico</p>
                         </div>
                         <div class="skill-back">
-                            <p class="skills-descripition">Pratiquei esta linguagem ativamente no projeto SKYER onde fui a responsável pelo front-end do projeto que consistia em um site como de compras onde recebia as informações da câmera do robô e disponibilizava para o usuário os itens disponíveis.</p>
+                            <p class="skills-descripition">Pratiquei esta linguagem ativamente em 2 matérias da faculdade.</p>
                         </div>
                     </div>
                     <div class="skills-action">
@@ -116,14 +118,14 @@
                                 <p class="skills-level">Intermediário</p>
                             </div>
                             <div class="skill-back">
-                                <p class="skills-descripition">Pratiquei esta linguagem ativamente no projeto SKYER onde fui a responsável pelo front-end do projeto que consistia em um site como de compras onde recebia as informações da câmera do robô e disponibilizava para o usuário os itens disponíveis.</p>
+                                <p class="skills-descripition">Pratiquei esta linguagem ativamente em 2 matérias da faculdade e utilizei biblioteclas como pandas e sklearn.</p>
                             </div>
                         </div>
         </div>
     </div>
     
 <!-- Footer -->
-<footer class="footer">
+<footer id="contato" class="footer">
     <div class="contact-grade">
         <h1>Contato</h1>
         <div class="contact-action">

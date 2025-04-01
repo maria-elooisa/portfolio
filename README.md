@@ -13,6 +13,8 @@ meu-portfolio/
 │   │   ├── projects.css
 │   │   ├── habillities.css
 │   │   ├── contact.css
+│   ├── doc/
+│   │   ├── Maria Eloisa da Silva Santos - Curriculo.pdf
 │   ├── img/
 │   │   ├── my.png
 │   │   ├── maria_board.png
@@ -76,7 +78,7 @@ meu-portfolio/
 ## Contato
 
 - **LinkedIn**: Maria Eloisa da Silva
-- **Email**: maria.santos@example.com
+- **Email**: mariaelooisa1011@gmail.com
 
 ---
 
